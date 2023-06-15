@@ -12,10 +12,11 @@ import java.util.List;
 @NoArgsConstructor
 public class KakaoApiResponseDto {
 
+    //몇번검색됐는지
     @JsonProperty("meta")
     private MetaDto metaDto;
 
     @JsonProperty("documents")
-    private List<DocumentDto> documentDtoList;
+    private List<DocumentDto> documentList;
 
 }
